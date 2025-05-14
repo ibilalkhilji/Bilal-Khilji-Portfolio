@@ -64,130 +64,141 @@
 
     <script type="application/ld+json">
         {
-          "@context": "https://schema.org",
-          "@type": "ReviewCollection",
-          "review": [
-            {
-              "@type": "Review",
-              "author": {
-                "@type": "Person",
-                "name": "Absar Alam"
-              },
-              "reviewBody": "We used their logo creation services along with their app development services. They have been a pleasure to work with and have been responsive to all questions asked. We have recommended them to some of our clients and will continue to do so as we have been very happy with the logos and mobile app that they have created for us.",
-              "publisher": {
-                "@type": "Organization",
-                "name": "KHOJKAR"
-              },
-              "reviewRating": {
-                "@type": "Rating",
-                "ratingValue": "4",
-                "bestRating": "5"
-              }
-            },
-            {
-              "@type": "Review",
-              "author": {
-                "@type": "Person",
-                "name": "Saleem Khilji"
-              },
-              "reviewBody": "We have been using their services for the last four years and are happy with the quality of service they provide. Social media management requires 24/7 ownership, and we’ve been able to get that. Thanks to the team for being a great partner in our journey.",
-              "publisher": {
-                "@type": "Organization",
-                "name": "Adarsh Muslim Newspaper"
-              },
-              "reviewRating": {
-                "@type": "Rating",
-                "ratingValue": "5",
-                "bestRating": "5"
-              }
-            },
-            {
-              "@type": "Review",
-              "author": {
-                "@type": "Person",
-                "name": "Usama Khilji"
-              },
-              "reviewBody": "We are very happy that we chose them for the development of our new website. It looks great, is easy to navigate, and updates are done in no time. Our customers love it.",
-              "publisher": {
-                "@type": "Organization",
-                "name": "Adarsh Muslim Publication"
-              },
-              "reviewRating": {
-                "@type": "Rating",
-                "ratingValue": "4",
-                "bestRating": "5"
-              }
-            },
-            {
-              "@type": "Review",
-              "author": {
-                "@type": "Person",
-                "name": "Mr. Atique"
-              },
-              "reviewBody": "We have worked with them for many years and they have developed several websites for us. Their expertise in website development and graphic design is unmatchable in the industry, along with their quality of work and ongoing support.",
-              "publisher": {
-                "@type": "Organization",
-                "name": "Marwar Muslim Educational & Welfare Society"
-              },
-              "reviewRating": {
-                "@type": "Rating",
-                "ratingValue": "3",
-                "bestRating": "5"
-              }
-            },
-            {
-              "@type": "Review",
-              "author": {
-                "@type": "Person",
-                "name": "Kamal Gupta"
-              },
-              "reviewBody": "Fantastic work! I am just impressed by their service quality and working strategy. I hired them for the development of my online store, and they have satisfied me fully by delivering an exceptional solution. They have great expertise, are dedicated, attentive, talented, and truly care about client needs. Highly recommended.",
-              "publisher": {
-                "@type": "Organization",
-                "name": "KBG Mart"
-              },
-              "reviewRating": {
-                "@type": "Rating",
-                "ratingValue": "5",
-                "bestRating": "5"
-              }
-            },
-            {
-              "@type": "Review",
-              "author": {
-                "@type": "Person",
-                "name": "Shadab Khan"
-              },
-              "reviewBody": "It was and still is very nice to work with them. The team is very polite and has given me quick answers, always trying to meet our needs. The quality of the work is very good!",
-              "publisher": {
-                "@type": "Organization",
-                "name": "Fashprix"
-              },
-              "reviewRating": {
-                "@type": "Rating",
-                "ratingValue": "4",
-                "bestRating": "5"
-              }
-            },
-            {
-              "@type": "Review",
-              "author": {
-                "@type": "Person",
-                "name": "Aazam Khan"
-              },
-              "reviewBody": "All work done by them is exceptional, and I couldn't have it any other way. They delivered as promised, and the work is exactly as requested.",
-              "publisher": {
-                "@type": "Organization",
-                "name": "KabaadKhana App"
-              },
-              "reviewRating": {
-                "@type": "Rating",
-                "ratingValue": "4",
-                "bestRating": "5"
-              }
-            }
-          ]
-        }
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "Bilal Khilji",
+  "url": "https://ibilalkhiljiportfolio.test",
+  "image": "https://ibilalkhiljiportfolio.test/assets/img/images/profile.jpg",
+  "jobTitle": "Full Stack Developer & Product Designer",
+  "description": "I’m a Full Stack Developer and Product Designer with 6+ years of experience in crafting modern, user-focused applications. I specialize in Laravel, React, Android/iOS Apps, CRM, and SaaS platforms.",
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "4.3",
+    "reviewCount": "7"
+  },
+  "review": [
+    {
+      "@type": "Review",
+      "author": {
+        "@type": "Person",
+        "name": "Absar Alam"
+      },
+      "reviewBody": "We used their logo creation services and received an amazing design. They were professional and provided great communication throughout the process.",
+      "reviewRating": {
+        "@type": "Rating",
+        "ratingValue": "4",
+        "bestRating": "5"
+      },
+      "itemReviewed": {
+        "@type": "Person",
+        "name": "Bilal Khilji"
+      }
+    },
+    {
+      "@type": "Review",
+      "author": {
+        "@type": "Person",
+        "name": "Saleem Khilji"
+      },
+      "reviewBody": "We have been using their services for 3+ years and they always deliver what we imagine. Highly satisfied!",
+      "reviewRating": {
+        "@type": "Rating",
+        "ratingValue": "5",
+        "bestRating": "5"
+      },
+      "itemReviewed": {
+        "@type": "Person",
+        "name": "Bilal Khilji"
+      }
+    },
+    {
+      "@type": "Review",
+      "author": {
+        "@type": "Person",
+        "name": "Umar Waqas"
+      },
+      "reviewBody": "They created a powerful lead management and sales system tailored to our business needs. Excellent functionality and easy to use.",
+      "reviewRating": {
+        "@type": "Rating",
+        "ratingValue": "5",
+        "bestRating": "5"
+      },
+      "itemReviewed": {
+        "@type": "Person",
+        "name": "Bilal Khilji"
+      }
+    },
+    {
+      "@type": "Review",
+      "author": {
+        "@type": "Person",
+        "name": "Usman Ali"
+      },
+      "reviewBody": "Bilal and team designed our mobile app. It was clean, responsive, and our customers love it. Highly recommend!",
+      "reviewRating": {
+        "@type": "Rating",
+        "ratingValue": "4",
+        "bestRating": "5"
+      },
+      "itemReviewed": {
+        "@type": "Person",
+        "name": "Bilal Khilji"
+      }
+    },
+    {
+      "@type": "Review",
+      "author": {
+        "@type": "Person",
+        "name": "Faraz Ahmed"
+      },
+      "reviewBody": "We hired Bilal to revamp our website. His creative inputs made a huge difference and the new site performs better in every way.",
+      "reviewRating": {
+        "@type": "Rating",
+        "ratingValue": "4",
+        "bestRating": "5"
+      },
+      "itemReviewed": {
+        "@type": "Person",
+        "name": "Bilal Khilji"
+      }
+    },
+    {
+      "@type": "Review",
+      "author": {
+        "@type": "Person",
+        "name": "Imran Khan"
+      },
+      "reviewBody": "Great after-sales support. Any time we face issues, Bilal is quick to respond and solve them.",
+      "reviewRating": {
+        "@type": "Rating",
+        "ratingValue": "4",
+        "bestRating": "5"
+      },
+      "itemReviewed": {
+        "@type": "Person",
+        "name": "Bilal Khilji"
+      }
+    },
+    {
+      "@type": "Review",
+      "author": {
+        "@type": "Person",
+        "name": "Shoaib Iqbal"
+      },
+      "reviewBody": "From branding to full CRM development, Bilal is a one-stop solution for startups. Highly skilled and efficient.",
+      "reviewRating": {
+        "@type": "Rating",
+        "ratingValue": "5",
+        "bestRating": "5"
+      },
+      "itemReviewed": {
+        "@type": "Person",
+        "name": "Bilal Khilji"
+      }
+    }
+  ]
+}
+
     </script>
 
     <script type="application/ld+json">
