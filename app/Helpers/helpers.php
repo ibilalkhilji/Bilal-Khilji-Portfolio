@@ -146,7 +146,7 @@ if (!function_exists('projects')) {
                 'image' => asset('assets/img/projects/artisansjodhpur.png'),
                 'title' => 'Artisans Jodhpur',
                 'subtitle' => 'Antique Hardware & Furniture Store | Website',
-                'url' => 'https://artisansjodhpur.in',
+                'url' => 'https://artisansjodhpur.com',
                 'tags' => [
                     'Laravel', 'PHP', 'MySQL',
                 ],
