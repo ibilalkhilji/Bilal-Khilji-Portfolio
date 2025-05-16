@@ -45,6 +45,20 @@
                                                             @if(!empty($project['description']))
                                                                 <p class="description mt-2">{{$project['description']}}</p>
                                                             @endif
+                                                            @if(count($project['tags'])>0)
+                                                                <div class="common-button-groups">
+                                                                    <span>Technologies:</span><br>
+                                                                    <div class="d-flex flex-wrap gap-2 mt-2">
+                                                                        @foreach($project['tags'] as $tag)
+                                                                            <a class="btn bg-white btn-outline-dark text-black px-2 py-0 me-0"
+                                                                               style="border-color: var(--border)">
+                                                                                {!! getTagIcon($tag) !!}
+                                                                                <small>{{$tag}}</small>
+                                                                            </a>
+                                                                        @endforeach
+                                                                    </div>
+                                                                </div>
+                                                            @endif
                                                         </div>
                                                         @if(!empty($project['url']))
                                                             <div class="visite-btn flex-shrink-0">

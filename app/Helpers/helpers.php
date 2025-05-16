@@ -118,7 +118,7 @@ if (!function_exists('projects')) {
                 'subtitle' => 'Online Grocery Store | eCommerce Website',
                 'url' => 'https://jgkkiranastore.com',
                 'tags' => [
-                    'Laravel', 'PHP', 'MySQL',
+                    'Laravel', 'PHP', 'MySQL', 'Firebase', 'PWA',
                 ],
                 'description' => 'A user-friendly grocery website that allows customers to browse daily essentials, add items to their cart, and place orders online. The system supports easy order management and home delivery for a local retail business',
             ],
@@ -128,7 +128,7 @@ if (!function_exists('projects')) {
                 'subtitle' => 'School Management System | Web Application',
                 'url' => 'https://skoolsathi.in',
                 'tags' => [
-                    'Laravel', 'PHP', 'MySQL',
+                    'Laravel', 'PHP', 'MySQL', 'Firebase', 'Arduino', 'IoT',
                 ],
                 'description' => 'A school management application designed to simplify daily administrative tasks. It includes modules for student records, attendance, exam results, staff management, and communication—helping schools operate more efficiently.',
             ],
@@ -158,7 +158,7 @@ if (!function_exists('projects')) {
                 'subtitle' => 'News Platform | Website',
                 'url' => 'https://adarshmuslim.com',
                 'tags' => [
-                    'Laravel', 'PHP', 'MySQL',
+                    'PHP', 'MySQL', 'Firebase',
                 ],
                 'description' => 'A digital news platform that publishes community news, articles, and religious content. The site is regularly updated and features an intuitive content management system for smooth publishing and user engagement',
             ],
@@ -168,7 +168,7 @@ if (!function_exists('projects')) {
                 'subtitle' => 'Books Store | eCommerce Website',
                 'url' => 'https://adarshmuslim.in',
                 'tags' => [
-                    'Laravel', 'PHP', 'MySQL',
+                    'PHP', 'MySQL',
                 ],
                 'description' => 'An eCommerce platform offering a variety of Islamic books across different categories. It features a categorized product listing, advanced search, and a seamless shopping experience from browsing to checkout',
             ],
@@ -180,7 +180,7 @@ if (!function_exists('projects')) {
                 'subtitle' => 'Local Service Provider | Android App',
                 'url' => '',
                 'tags' => [
-                    'Laravel', 'PHP', 'MySQL',
+                    'PHP', 'MySQL', 'Firebase', 'Java'
                 ],
                 'description' => 'A local service provider Android app designed to connect users with nearby professionals and essential services quickly and conveniently.',
             ],
@@ -190,7 +190,7 @@ if (!function_exists('projects')) {
                 'subtitle' => 'Educational Institute | Website',
                 'url' => '',
                 'tags' => [
-                    'Laravel', 'PHP', 'MySQL',
+                    'PHP', 'MySQL',
                 ],
                 'description' => '',
             ],
@@ -200,7 +200,7 @@ if (!function_exists('projects')) {
                 'subtitle' => 'Social Welfare Organization | Website',
                 'url' => '',
                 'tags' => [
-                    'Laravel', 'PHP', 'MySQL',
+                    'PHP', 'MySQL',
                 ],
                 'description' => '',
             ],
@@ -210,10 +210,29 @@ if (!function_exists('projects')) {
                 'subtitle' => 'Waste Management | Mobile App',
                 'url' => '',
                 'tags' => [
-                    'Laravel', 'PHP', 'MySQL',
+                    'PHP', 'MySQL', 'Firebase', 'Java'
                 ],
                 'description' => '',
             ],
         ];
+    }
+}
+
+if (!function_exists('getTagIcon')) {
+    function getTagIcon(string $tag): string
+    {
+        return match ($tag) {
+            'Laravel' => "<img width='16' alt='$tag' src='" . asset('assets/img/icons/laravel.svg') . "'>",
+            'PHP' => "<img width='16' alt='$tag' src='" . asset('assets/img/icons/php.svg') . "'>",
+            'MySQL' => "<img width='16' alt='$tag' src='" . asset('assets/img/icons/mysql.svg') . "'>",
+            'Postman' => "<img width='16' alt='$tag' src='" . asset('assets/img/icons/postman.svg') . "'>",
+            'Notion' => "<img width='16' alt='$tag' src='" . asset('assets/img/icons/notion.svg') . "'>",
+            'Firebase' => "<img width='16' alt='$tag' src='" . asset('assets/img/icons/firebase.svg') . "'>",
+            'Java' => "<img width='16' alt='$tag' src='" . asset('assets/img/icons/java.svg') . "'>",
+            'Arduino' => "<img width='16' alt='$tag' src='" . asset('assets/img/icons/arduino.svg') . "'>",
+            'IoT' => "<img width='16' alt='$tag' src='" . asset('assets/img/icons/iot.svg') . "'>",
+            'PWA' => "<img width='16' alt='$tag' src='" . asset('assets/img/icons/pwa.svg') . "'>",
+            default => '',
+        };
     }
 }
