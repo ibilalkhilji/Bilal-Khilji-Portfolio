@@ -180,7 +180,7 @@ if (!function_exists('projects')) {
                 'subtitle' => 'Local Service Provider | Android App',
                 'url' => '',
                 'tags' => [
-                    'PHP', 'MySQL', 'Firebase', 'Java'
+                    'PHP', 'MySQL', 'Firebase', 'Java', 'PWA'
                 ],
                 'description' => 'A local service provider Android app designed to connect users with nearby professionals and essential services quickly and conveniently.',
             ],
