@@ -1,3 +1,4 @@
+@php use Carbon\Carbon; @endphp
 @extends('layout.app')
 @section('content')
     <main>
@@ -13,16 +14,28 @@
                                 <div class="top-info">
                                     <div class="text" style="max-width: none">
                                         <h1 class="main-title">Hi, This Is <span>Bilal Khilji</span> 👋</h1>
-                                        <p>Innovative and dedicated computer engineer with over {{round(\Carbon\Carbon::parse('01-07-2007')->diffInYears(\Carbon\Carbon::now()))}} years of
-                                            experience in building and testing applications for Web and Android. Founder
-                                            of KHALEEJ Infotech, operating as a freelancer under this banner. Skilled in
-                                            PHP and MySQL with proficiency in 5+ programming languages.</p>
+                                        <p>
+                                            Experienced and passionate Computer Engineer
+                                            with {{round(Carbon::parse('01-07-2007')->diffInYears(Carbon::now()))}}+
+                                            years in designing, building, and testing Web and Android applications. I’m
+                                            the founder of <strong>KHALEEJ Infotech</strong>, where I operate as an
+                                            independent freelancer delivering high-quality, scalable solutions.
+
+                                            Skilled in <strong>PHP, MySQL</strong>, and proficient in over 5 programming
+                                            languages, I have a deep understanding of full-stack development and
+                                            application architecture.
+
+                                            <strong>Specialized in building custom software solutions</strong> tailored
+                                            to client needs — solving real-world business problems through smart,
+                                            efficient, and scalable technology. From concept to deployment, I turn
+                                            complex requirements into user-friendly digital products that work.
+                                        </p>
                                     </div>
                                 </div>
                                 <div class="counter-area">
                                     <div class="counter">
                                         <div class="counter-item">
-                                            <h3 class="number">{{round(\Carbon\Carbon::parse('01-07-2007')->diffInYears(\Carbon\Carbon::now()))}}</h3>
+                                            <h3 class="number">{{round(Carbon::parse('01-07-2007')->diffInYears(Carbon::now()))}}</h3>
                                             <p class="subtitle">Year of Experience</p>
                                         </div>
                                         <div class="counter-item">
@@ -48,7 +61,8 @@
                                                         <p>{!! $review['review'] !!}</p>
                                                     </div>
                                                     <div class="designation">
-                                                        <p><span>{{$review['person']}}</span> - {{$review['company']}}</p>
+                                                        <p><span>{{$review['person']}}</span> - {{$review['company']}}
+                                                        </p>
                                                     </div>
                                                 </div>
                                             </div>
