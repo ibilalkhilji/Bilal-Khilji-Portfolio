@@ -19,11 +19,11 @@
                                             with {{round(Carbon::parse('01-07-2007')->diffInYears(Carbon::now()))}}+
                                             years in designing, building, and testing Web and Android applications. I’m
                                             the founder of <strong>KHALEEJ Infotech</strong>, where I operate as an
-                                            independent freelancer delivering high-quality, scalable solutions.
+                                            independent freelancer delivering high-quality, scalable solutions. <br>
 
                                             Skilled in <strong>PHP, MySQL</strong>, and proficient in over 5 programming
                                             languages, I have a deep understanding of full-stack development and
-                                            application architecture.
+                                            application architecture. <br>
 
                                             <strong>Specialized in building custom software solutions</strong> tailored
                                             to client needs — solving real-world business problems through smart,
